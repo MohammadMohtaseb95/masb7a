@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  background-color: #25F8FC;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #25F8FC;
+  border-radius: 10px;
+  background-color: #4a03b4;
+  background: url('ki.jpg') no-repeat center center;
+  background-size: cover;
+  height: 91vh;
+  width: 100%;
+}
+
+h1 {
+  color: #8c5be8;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 10rem;
+}
+
+.button-item {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+
+button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #8c5be8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4b0bc2;
+}
+
+p {
+  margin: 0;
+  font-size: 35px;
+  color: #08393e;
+}
